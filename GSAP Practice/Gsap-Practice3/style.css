@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: #000000;
+
+}
+ html,
+ body{
+    height: 100%;
+    width: 100%;
+ }
+
+ #box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+ }
+
+ #box1{
+   height: 300px;
+   width: 300px;
+   background-color: rgb(255, 4, 4);
+}
+
+#box2{
+   height: 300px;
+   width: 300px;
+   background-color: rgb(203, 232, 40);
+}
+
+#box3{
+   height: 300px;
+   width: 300px;
+   background-color: rgb(232, 136, 27);
+}
