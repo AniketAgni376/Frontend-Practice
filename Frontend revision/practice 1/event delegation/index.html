@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent">
+        <button id="play">play</button> //*event ko check ya to id par kiya jaega ya parent par waha bhi nahi milega to body par isi ko event bubbling kehte hain. 
+        <button id="pause">pause</button>//*event bubbling matlab jispar event hua hai. Jaise maine click kiya play par agar uspar event listener nahi hua to pause par check karo wha bhi nahi hua to parent par check karo wha bhi na hua to body par check karo.
+    </div> //*Event Delegation- Parent par event listener laga hoga dono buttons ko alag alag id dedi jaegi un id's ke madat se jab bhi koi button click hoga parent ka event listener chalega usme details milegi uske basis par check karenge ki vo id kya hai jo bhi button target banega agar id play hai to play hojaega or pause hai to  pause hojaega.   
+    <script src="script.js"></script>
+</body> 
+</html>
