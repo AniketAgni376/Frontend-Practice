@@ -1,0 +1,24 @@
+/* Style for the progress bar container */
+.progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #f3f3f3;
+    z-index: 9999;
+  }
+  
+  /* Style for the actual progress bar */
+  .progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+  }
+  
+  /* Additional content styles */
+  .content {
+    padding: 20px;
+    font-size: 18px;
+  }
+  
