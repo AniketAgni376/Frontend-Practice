@@ -38,3 +38,11 @@ tl.from("img",{
     duration: 0.5,
     stagger:0.5
 })
+
+tl.from("#btm h5",{
+    y:100,
+    rotate:90,
+    opacity:0,
+    duration: 0.5,
+    stagger:0.5
+})

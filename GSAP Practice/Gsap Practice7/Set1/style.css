@@ -95,6 +95,7 @@ img{
     width  : 60%;
     display: flex;
     justify-content: space-around;
+    padding: 100px 0px
    }
 
   
