@@ -1,0 +1,114 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Gilroy';
+    background-color: black;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height:100vh; //locomotives me height vh me dete hain percent me nahi.
+    width: 100%;
+    /* background-color: #939191; */
+}
+
+#page2{
+    height:100vh;
+    width: 100%;
+    /* background-color: #754141; */
+}
+
+#page3{
+    height:100vh;
+    width: 100%;
+    /* background-color: #939191; */
+}
+
+#page4 {
+    height:100vh; //locomotives me height vh me dete hain percent me nahi.
+    width: 100%;
+    /* background-color: #939191; */
+}
+
+#page5{
+    height:100vh;
+    width: 100%;
+    /* background-color: #754141; */
+}
+
+#page6{
+    height:100vh;
+    width: 100%;
+    /* background-color: #939191; */
+}
+
+#page1 #img-div{
+    height:100%;
+    width: 30%;
+    position:relative;
+    left: 50%;
+    transform:translate(-50%);
+    /* background-color: #fff; */
+    overflow: hidden;
+}
+
+#page2 #img-div{
+    height:100%;
+    width: 30%;
+    position:relative;
+    left: 50%;
+    transform:translate(-50%);
+    /* background-color: #fff; */
+    overflow: hidden;
+}
+
+#page3 #img-div{
+    height:100%;
+    width: 30%;
+    position:relative;
+    left: 50%;
+    transform:translate(-50%);
+    /* background-color: #fff; */
+    overflow: hidden;
+}
+
+#page4 #img-div{
+    height:100%;
+    width: 30%;
+    position:relative;
+    left: 50%;
+    transform:translate(-50%);
+    /* background-color: #fff; */
+    overflow: hidden;
+}
+
+#page5 #img-div{
+    height:100%;
+    width: 30%;
+    position:relative;
+    left: 50%;
+    transform:translate(-50%);
+    /* background-color: #fff; */
+    overflow: hidden;
+}
+
+#page6 #img-div{
+    height:100%;
+    width: 30%;
+    position:relative;
+    left: 50%;
+    transform:translate(-50%);
+    /* background-color: #fff; */
+    overflow: hidden;
+}
+#img-div img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.2;
+}
