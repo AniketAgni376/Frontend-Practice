@@ -1,0 +1,38 @@
+
+- **immutable vs mutable**
+
+- **primitive and reference**
+
+- **array objects destructuring import and export**
+- **map filter arrow functions(implicit return) spread operator**
+
+## array
+
+- **array aisa data structure hai jo ek se zada data rakh sakta hai.**
+
+
+### React js mein apko ek state naam ki cheej milegi us bande ko aap mutate nahi karsakte matlab ki directly uski value nahi hata ya jod sakte.
+
+## kya allowed nahi hai
+
+`` var state = [1,2,3];``
+
+``state.pop()``
+we can't change value like this in react.
+
+Ab ham padenge ki state ko kaise immutable way me update karein.
+
+### Bhaiya aapka jo array hai usme last ke do number hata dein...
+
+## Spread Operator
+
+We will use this for performing this task.
+
+## destructuring
+
+## import export
+hum log component banaate hain,
+component matlab page ka hissa, navbar, sidebar, cart, landing, second, ab dikkat ye aati hai ki har hissa alag alag component hai aur components ko hum log alag alag files main rakhte hai, to inko last mein jodna bhi padta hai, joodne ke liye use hota hai import and export 
+
+## arrow functions(implicit return)
+
